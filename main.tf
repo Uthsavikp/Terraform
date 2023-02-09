@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 resource "aws_vpc" "vpc-connect" {
-  cidr_block = "var.cidr_range"
+  cidr_block = "10.0.0.0/16"
 }
